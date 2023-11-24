@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBAction func didTapButton(_ sender: Any) {
         print("방가방가")
         view.backgroundColor = .yellow
-        helloLabel.text = "하이"
+        helloLabel.text = "헬로우"
     }
     
 }
