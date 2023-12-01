@@ -263,3 +263,9 @@ counter1.increment()
 print(counter1.count)
 
 counter2.reset()
+/*
+static을 메서드 앞에 붙이게 되면
+인스턴스 생성 없이 호출이 가능하고
+static 없는 메서드는
+인스턴스를 만들어서 호출해야 한다
+*/
