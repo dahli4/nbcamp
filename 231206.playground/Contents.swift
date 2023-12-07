@@ -3,16 +3,11 @@ import UIKit
 var n = [1,2,3,4,5]
 var numberArray: [Int] = []
 
-numberArray = n.map{
-    if let change = Int(String($0)){
-        return change
-    }
-    return 0
-}
-let reversearr = numberArray.reversed().map{ $0 }
+numberArray = n.map{$0}
 numberArray.reverse()
 print(numberArray)
 print("----------------------------")
+
 //프로토콜
 protocol Vehicle{
     var speed: Double {get set} //get set을 모두 요구하는 가변 속성
