@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+let kiosk = kiosk1()
+kiosk.run()
 
