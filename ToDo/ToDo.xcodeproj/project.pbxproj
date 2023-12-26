@@ -13,6 +13,7 @@
 		00AC7C0C2B31933F00D70BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AC7C0A2B31933F00D70BA5 /* Main.storyboard */; };
 		00AC7C0E2B31934000D70BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AC7C0D2B31934000D70BA5 /* Assets.xcassets */; };
 		00AC7C112B31934000D70BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AC7C0F2B31934000D70BA5 /* LaunchScreen.storyboard */; };
+		00AC7C192B31A68700D70BA5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AC7C182B31A68700D70BA5 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		00AC7C0D2B31934000D70BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00AC7C102B31934000D70BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00AC7C122B31934000D70BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00AC7C182B31A68700D70BA5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				00AC7C0D2B31934000D70BA5 /* Assets.xcassets */,
 				00AC7C0F2B31934000D70BA5 /* LaunchScreen.storyboard */,
 				00AC7C122B31934000D70BA5 /* Info.plist */,
+				00AC7C182B31A68700D70BA5 /* Task.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AC7C192B31A68700D70BA5 /* Task.swift in Sources */,
 				00AC7C092B31933F00D70BA5 /* ViewController.swift in Sources */,
 				00AC7C052B31933F00D70BA5 /* AppDelegate.swift in Sources */,
 				00AC7C072B31933F00D70BA5 /* SceneDelegate.swift in Sources */,
